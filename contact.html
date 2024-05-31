@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="static/contact.css" />
+    <script src="static/contact.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>
+          If you have any questions about our research or would like to get in
+          touch, please use the form below or reach out directly via the
+          provided contact information.
+        </p>
+        <div class="contact-form-container">
+          <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+          </form>
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: info@stemcellresearch.com</p>
+            <p>Phone: +63 923 456 7890</p>
+            <p>Address: 123 Stem Cell Research Ave, Science City, SC 12345</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Stem Cell Research Website</p>
+    </footer>
+  </body>
+</html>
